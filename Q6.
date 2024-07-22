@@ -1,0 +1,7 @@
+entrada = input("Digite os números separados: ")
+
+numeros = list(map(float, entrada.split()))
+
+soma = sum(numeros)
+
+print(f"{soma}")
