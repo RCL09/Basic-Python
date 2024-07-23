@@ -1,0 +1,6 @@
+numeros_str = input("Digite uma lista de números separados: ")
+numeros = [float(num) for num in numeros_str.split()]
+produto = 1
+for num in numeros:
+    produto *= num
+print("O produto dos números é:", produto)
