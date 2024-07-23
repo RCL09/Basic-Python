@@ -1,0 +1,10 @@
+entrada = input("Digite os números separados: ")
+
+numeros = list(map(float, entrada.split()))
+
+menor_numero = numeros[0]
+
+for numero in numeros:
+    if numero < menor_numero:
+        menor_numero = numero
+print(f"O menor número digitado é: {menor_numero}")
