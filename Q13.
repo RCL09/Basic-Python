@@ -1,0 +1,7 @@
+palavras_str = input("Digite uma lista de palavras separadas por espaços: ")
+
+palavras = palavras_str.split()
+
+palavras_com_a = [palavra for palavra in palavras if palavra.lower().startswith('a')]
+
+print("As palavras que começam com a letra 'a' são:", palavras_com_a)
