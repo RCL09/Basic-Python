@@ -1,0 +1,4 @@
+numeros_str = input("Digite uma lista de números separados: ")
+numeros = [float(num) for num in numeros_str.split()]
+numeros_ordenados_crescente = sorted(numeros)
+print("A lista em ordem crescente é:", numeros_ordenados_crescente)
