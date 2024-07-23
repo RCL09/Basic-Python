@@ -1,0 +1,7 @@
+numeros_str = input("Digite uma lista de números separados: ")
+
+numeros = [int(num) for num in numeros_str.split()]
+
+numeros_impares = [num for num in numeros if num % 2 != 0]
+
+print("Os números ímpares da lista são:", numeros_impares)
